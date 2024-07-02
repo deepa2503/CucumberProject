@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="54.56" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="To Verify Adactin Hotel Login Page" name="To Veify Adactin Hotel Webpage with Valid Credential" time="9.453">
+<system-out><![CDATA[
+Given User should be in Adactin Login Page..................................passed
+When User should enter Valid Credentials....................................passed
+And User should click Login button..........................................passed
+Then User should Verify Login success.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify Adactin Hotel Login Page" name="To Verify Adactin hotel Search Hotel WebPage with Valid Credentails" time="6.287">
+<system-out><![CDATA[
+Given User should be in Adactin Login Page..................................passed
+When User should enter Valid Credentials....................................passed
+And User should click Login button..........................................passed
+Then User should Verify Login success.......................................passed
+And User should Select SearchHotel Details..................................passed
+And User should click Search Button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify Adactin Hotel Login Page" name="To Verify Select hotel Page" time="6.741">
+<system-out><![CDATA[
+Given User should be in Adactin Login Page..................................passed
+When User should enter Valid Credentials....................................passed
+And User should click Login button..........................................passed
+Then User should Verify Login success.......................................passed
+And User should Select SearchHotel Details..................................passed
+And User should click Search Button.........................................passed
+And User should click radio button..........................................passed
+And User should click continue button.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify Adactin Hotel Login Page" name="To Verify Select Book Hotel Page" time="11.85">
+<system-out><![CDATA[
+Given User should be in Adactin Login Page..................................passed
+When User should enter Valid Credentials....................................passed
+And User should click Login button..........................................passed
+Then User should Verify Login success.......................................passed
+And User should Select SearchHotel Details..................................passed
+And User should click Search Button.........................................passed
+And User should click radio button..........................................passed
+And User should click continue button.......................................passed
+And User Should fill the fields Details.....................................passed
+And User should click Book button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify Adactin Hotel Login Page" name="To Verify Booking Confirmation Page" time="19.914">
+<system-out><![CDATA[
+Given User should be in Adactin Login Page..................................passed
+When User should enter Valid Credentials....................................passed
+And User should click Login button..........................................passed
+Then User should Verify Login success.......................................passed
+And User should Select SearchHotel Details..................................passed
+And User should click Search Button.........................................passed
+And User should click radio button..........................................passed
+And User should click continue button.......................................passed
+And User Should fill the fields Details.....................................passed
+And User should click Book button...........................................passed
+And User should click MyItinerary button....................................passed
+And User Should click OrderId radio button..................................passed
+And User should click cancelSelected button.................................passed
+Then User should Verify Logout Success......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
