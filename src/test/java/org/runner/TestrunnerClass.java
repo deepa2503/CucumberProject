@@ -28,6 +28,8 @@ public class TestrunnerClass {
 	public static void report() {
 		ReportingClass.generateReport("target\\jsonReport.json");
 		
+		System.out.println("target");
+		
 	}
 	
 }
