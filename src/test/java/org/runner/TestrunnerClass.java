@@ -29,6 +29,8 @@ public class TestrunnerClass {
 		ReportingClass.generateReport("target\\jsonReport.json");
 		
 		System.out.println();
+		System.out.println("target");
+		
 	}
 	
 }
